@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="add_to_dir_hint">请输入便签夹名称或选择现有的便签夹</string>
+    <string name="search_hint">请输入关键字进行搜索</string>
+</resources>

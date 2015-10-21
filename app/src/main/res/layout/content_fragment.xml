@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityFragment"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textSize="@dimen/content_size"
+        android:textColor="@color/content_color"
+        android:lineSpacingExtra="@dimen/content_line_space"
+        android:padding="@dimen/content_padding"
+        android:background="@drawable/content_frame"/>
+
+</LinearLayout>

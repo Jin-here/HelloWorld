@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/content_frame"
+    android:padding="@dimen/content_padding">
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>-->
+
+    <com.vgaw.helloworld.ui.MyRecyclerView
+        android:id="@+id/rv_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></com.vgaw.helloworld.ui.MyRecyclerView>
+
+    <!--<ImageView
+        android:id="@+id/iv_undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/undo"/>
+
+    <ImageView
+        android:id="@+id/iv_redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/redo"
+        android:layout_marginLeft="@dimen/content_padding"/>
+
+    <ImageView
+        android:id="@+id/iv_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camera"
+        android:layout_marginLeft="@dimen/content_padding"/>
+
+    <ImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picture"
+        android:layout_marginLeft="@dimen/content_padding"/>
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/search"
+        android:layout_marginLeft="@dimen/content_padding"/>
+
+    <ImageView
+        android:id="@+id/iv_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dir"
+        android:layout_marginLeft="@dimen/content_padding"/>
+
+    <ImageView
+        android:id="@+id/iv_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select"
+        android:layout_marginLeft="@dimen/content_padding"/>
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        android:layout_marginLeft="@dimen/content_padding"/>-->
+</RelativeLayout>

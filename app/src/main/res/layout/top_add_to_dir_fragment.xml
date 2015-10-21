@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/content_padding"
+    android:background="@drawable/content_frame">
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/content_size"
+        android:hint="@string/add_to_dir_hint"
+        android:background="@null"
+        android:drawableLeft="@drawable/search_little"
+        android:drawablePadding="@dimen/content_padding"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/content_padding"
+    android:background="@drawable/content_frame">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/date_size"/>
+
+    <TextView
+        android:id="@+id/date_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/date"
+        android:textSize="@dimen/date_more_size"/>
+
+</RelativeLayout><!-- From: file:/E:/as_workspace/HelloWorld/app/src/main/res/layout/top_content_fragment.xml -->
